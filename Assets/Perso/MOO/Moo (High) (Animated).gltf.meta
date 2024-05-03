@@ -1,0 +1,69 @@
+fileFormatVersion: 2
+guid: d69fa1f835249594fb7601f12f451cdc
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 804e1ce4c496647cfa3f1a1134187c71, type: 3}
+  _removeEmptyRootObjects: 1
+  _scaleFactor: 1
+  _maximumLod: 300
+  _readWriteEnabled: 1
+  _generateColliders: 0
+  _swapUvs: 0
+  _generateLightmapUVs: 0
+  _importBlendShapeNames: 1
+  _blendShapeFrameWeight:
+    _option: 0
+    _multiplier: 1
+  _importNormals: 0
+  _importTangents: 0
+  _importCamera: 2
+  _importAnimations: 2
+  _addAnimatorComponent: 0
+  _animationLoopTime: 1
+  _animationLoopPose: 0
+  _importMaterials: 1
+  _enableGpuInstancing: 0
+  _useSceneNameIdentifier: 1
+  _textureCompression: -50
+  optimizeGameObjects: 0
+  materials:
+  - {fileID: 8603942673448562288, guid: d69fa1f835249594fb7601f12f451cdc, type: 3}
+  - {fileID: 5988228977740219150, guid: d69fa1f835249594fb7601f12f451cdc, type: 3}
+  textures:
+  - {fileID: 2800000, guid: f20470413774e2a46b4be6f1ab7e2582, type: 3}
+  - {fileID: 2800000, guid: cfec9f151d3561d47b7173005ef115d0, type: 3}
+  hasSceneData: 1
+  hasAnimationData: 1
+  hasMaterialData: 1
+  hasTextureData: 1
+  animations:
+  - name: 0_my_000
+  - name: 1_myl_std
+  - name: 2_myl_walk
+  - name: 3_myl_jp_1
+  - name: 4_myl_land
+  - name: 5_myl_rot
+  - name: 6_myl_ky_n
+  - name: 7_myl_ky_u
+  - name: 8_myl_slp
+  - name: 9_myl_slp2
+  - name: 10_myl_wup
+  - name: 11_myl_fsp
+  - name: 12_myl_ky_d
+  - name: 13_myl_jp_s
+  - name: 14_myl_wa_2
+  _extensions: []
+  _textures:
+  - texture: {fileID: 2800000, guid: f20470413774e2a46b4be6f1ab7e2582, type: 3}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {fileID: 2800000, guid: cfec9f151d3561d47b7173005ef115d0, type: 3}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  _mainAssetIdentifier: scenes/Scene
+  _importPlugins: []
