@@ -11,7 +11,7 @@ using UnityEngine.Rendering;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
 
-public class Controller : MonoBehaviour
+public class GameScript : MonoBehaviour
 {
     [SerializeField] private Transform _mooTransform;
     private Vector2 _direction;
@@ -44,9 +44,10 @@ public class Controller : MonoBehaviour
         {
             _velocity.y = _velocity.y - _gravity * Time.deltaTime;
         }
-        Vector3 movement = _characterController.transform.forward * _direction.x * _rotateSpeed * Time.deltaTime;
-        movement.y = _velocity.y - _gravity * Time.deltaTime;
+        Vector3 movement = _characterController.transform.forward * _direction.y * _moveSpeed * Time.deltaTime;
+        movement.y = _velocity.y; //- _gravity * Time.deltaTime;
         _characterController.Move(movement);
+
         _characterController.transform.Rotate(Vector3.up * _direction.x * _rotateSpeed * Time.deltaTime);
         if (_direction.magnitude > 0.1 && _animator.GetCurrentAnimatorStateInfo(0).IsName("Jump") == false)
         {
@@ -56,10 +57,10 @@ public class Controller : MonoBehaviour
         {
             _animator.SetBool("IsRunning", false);
         }
-        if (_jumpPressed == true)
-        {
+       
+        
 
-        }
+        
     }
 
     IEnumerator StopJumping()
